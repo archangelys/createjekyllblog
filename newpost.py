@@ -32,7 +32,7 @@ class NewPost():
         self.categories = args.categories
         self.filetype = args.filetype
         self.current_dir = os.getcwd()
-        self.post_base_dir = '_post'
+        self.post_base_dir = '_posts'
 
         if not self.rootpath:
             self.rootpath = self.current_dir
